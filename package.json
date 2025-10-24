@@ -1,0 +1,9 @@
+{
+  "name": "com.devknit.audiosource.pool",
+  "displayName": "Knit AudioSourcePool",
+  "version": "1.0.0",
+  "unity": "2023.2",
+  "dependencies": {
+    "com.unity.timeline": "1.8.6"
+  }
+}
