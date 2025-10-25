@@ -1,9 +1,9 @@
-
+﻿
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.Playables;
 
-namespace Knit.Timeline
+namespace Knit.TimelineExtension
 {
 	sealed class BackgroundMusicMixerBehaviour : PlayableBehaviour
 	{

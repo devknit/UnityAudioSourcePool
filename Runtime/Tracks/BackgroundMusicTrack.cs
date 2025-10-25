@@ -1,10 +1,10 @@
-
+﻿
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
 
-namespace Knit.Timeline
+namespace Knit.TimelineExtension
 {
 	[TrackColor( 252.0f / 255.0f, 192.0f / 255.0f, 7.0f / 255.0f)]
 	[TrackClipType( typeof( BackgroundMusicClip))]
