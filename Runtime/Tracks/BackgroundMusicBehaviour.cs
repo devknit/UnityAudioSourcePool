@@ -1,11 +1,9 @@
 ﻿
-using System;
-using UnityEngine;
 using UnityEngine.Playables;
 
-namespace Knit.TimelineExtension
+namespace UnityEngine.Audio
 {
-	[Serializable]
+	[System.Serializable]
 	sealed class BackgroundMusicBehaviour : PlayableBehaviour
 	{
 		[SerializeField]

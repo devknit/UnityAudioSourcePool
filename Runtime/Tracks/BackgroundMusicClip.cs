@@ -1,9 +1,8 @@
 ﻿
-using UnityEngine;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
 
-namespace Knit.TimelineExtension
+namespace UnityEngine.Audio
 {
 	[System.Serializable]
 	sealed class BackgroundMusicClip : PlayableAsset, ITimelineClipAsset

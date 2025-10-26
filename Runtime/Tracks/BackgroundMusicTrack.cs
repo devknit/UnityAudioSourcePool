@@ -1,13 +1,13 @@
 ﻿
-using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.Timeline;
 using UnityEngine.Playables;
+using System.ComponentModel; 
 
-namespace Knit.TimelineExtension
+namespace UnityEngine.Audio
 {
 	[TrackColor( 252.0f / 255.0f, 192.0f / 255.0f, 7.0f / 255.0f)]
 	[TrackClipType( typeof( BackgroundMusicClip))]
+	[DisplayName( "Knit.Timeline/Background Music Track")]
 	sealed class BackgroundMusicTrack : TrackAsset
 	{
 		public override Playable CreateTrackMixer( PlayableGraph graph, GameObject go, int inputCount)
